@@ -1,0 +1,21 @@
+.app-standard {
+	width: 500px;
+}
+
+.center-screen {
+	margin: 0 auto;
+}
+
+.status-panel {
+	border: 1px solid #ddd;
+	padding: 10px;
+	word-break: break-word;
+	box-shadow: 0 5px 20px #ccc;
+}
+
+.panel-title {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: #ddd;
+}

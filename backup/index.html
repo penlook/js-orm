@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html ng-app="status">
+<html ng-app="time-line">
 	<head>
 		<title>Javascript ORM</title>
 		<meta charset="utf8">
 		<link rel="stylesheet" href="./lib/qunit.css">
 		<link rel="stylesheet" href="./lib/bootstrap.css">
 		<link rel="stylesheet" href="./lib/bootstrap-theme.css">
-		<link rel="stylesheet" href="./src/status.css">
+		<link rel="stylesheet" href="./lib/timeline.css">
 	</head>
 	<body>
-		<div class="app-standard center-screen" ng-controller="statusController">
-			<status who="Bin Laden" message="Fire in the hole!"></status>
-			<status who="Maira Ozawa" message="Come on baby!"></status>
+		<div class="app-standard center-screen" ng-controller="timeController">
+			<time-line who="Bộ trưởng Bộ Giao thông" message="Hello, Maria Ozawa"/>
+			<time-line who="Bộ trưởng Bộ Y Tế" message="Hello, Bruce Lee"/>
+
+			<!-- <input type="text" ng-model="color" class="form-control" placeholder="Enter a color" />
+			<hello-world/>
+			<hello-world/> -->
 		</div>
 	</body>
 	<script src="./lib/qunit.js"></script>
@@ -22,5 +26,5 @@
 	<!-- <script src="./src/http.js"></script>
 	<script src="./src/main.js"></script>
 	<script src="./src/test.js"></script> -->
-	<script src="./src/status.js"></script>
+	<script src="./src/timeline.js"></script>
 </html>
